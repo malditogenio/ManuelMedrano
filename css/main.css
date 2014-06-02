@@ -1,0 +1,112 @@
+/*----------------------------------------------------------------------------------------------------
+
+	Theme Name:     Manuel Medrano
+	Description:    Landing page for online marketing challenge adwords
+	Author:         Andres Ospina
+	Author URI:     http://www.treebox.co
+	Version:        0.1
+
+----------------------------------------------------------------------------------------------------*/
+*{
+	webkit-transition: 	ease-out .5s;
+	-moz-transition: 	ease-out .5s;
+	-o-transition:  	ease-out .5s;
+		transition:  	ease-out .5s;
+}
+
+html{
+	height:100%;
+}
+
+h1 {
+	margin: 0 auto;
+	padding: 5em 0 0 0;
+	text-align: center;
+}
+
+body{
+	background: url(../img/bg-manuel.jpg) fixed top no-repeat rgba(0,0,0,1);
+	background-size: cover; 
+	height: 100%;
+	font-family: arial;
+}
+
+footer ul{
+	text-align: center;
+	margin: 7em 0 3em -2.6em;
+}
+footer ul li{
+	display: inline-block;
+}
+
+footer ul li img{
+	width: 72%;
+}
+
+small {
+	font-size: 80%;
+	color: #fff;
+	text-align: center;
+	margin: -1.5em auto 1em 0;
+	display: block;
+}
+
+small a{
+	color: #fff !important;
+}
+
+#video{
+	background: url(../img/bg-video-manuel-medrano.png) rgba(0,0,0,.7);
+	background-size: cover;
+	margin: 1.2em 0;
+}
+
+#video img {
+	display: block;
+	margin: 0 auto;
+	padding: 8% 0;
+}
+
+#conversion{
+	display: block;
+	margin: 2em auto 0  auto;
+	width: 60%
+}
+
+#conversion .email{
+	margin: 0 auto;
+	padding: .8em;
+	border: 0;
+	width: 60%;
+	display: block;
+	float: left;
+}
+
+
+#conversion #suscribete {
+	background: rgba(255, 255, 255, 0.27);
+	border: 2px solid #fff;
+	width: 35.5%;
+	color: #fff;
+	padding: .68em;
+	float: right;
+	display: block;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	text-align: center;
+	border-radius: 0 .5em .5em 0;
+	font-weight: bold;
+}
+
+#conversion #suscribete:hover{
+	border: 2px solid #000;
+	background: #000;
+	color: #fff;
+	border-bottom: 3px solid #010101; 
+}
+
+
+.contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+}
