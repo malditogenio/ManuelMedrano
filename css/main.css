@@ -20,12 +20,12 @@ html{
 
 h1 {
 	margin: 0 auto;
-	padding: 5em 0 0 0;
+	padding: 15% 0 .5em 0;
 	text-align: center;
 }
 
 body{
-	background: url(../img/bg-manuel.jpg) fixed top no-repeat rgba(0,0,0,1);
+	background: url(../img/bg-manuel4.jpg) fixed top no-repeat rgba(0,0,0,1);
 	background-size: cover; 
 	height: 100%;
 	font-family: arial;
@@ -33,7 +33,7 @@ body{
 
 footer ul{
 	text-align: center;
-	margin: 7em 0 3em -2.6em;
+	margin: 6em 0 2em -2.6em;
 }
 footer ul li{
 	display: inline-block;
@@ -45,9 +45,9 @@ footer ul li img{
 
 small {
 	font-size: 80%;
-	color: #fff;
+	color: rgba(255, 255, 255, 0.63);
 	text-align: center;
-	margin: -1.5em auto 1em 0;
+	margin: -1em auto 1em 0;
 	display: block;
 }
 
@@ -56,7 +56,7 @@ small a{
 }
 
 #video{
-	background: url(../img/bg-video-manuel-medrano.png) rgba(0,0,0,.7);
+	background: rgba(0,0,0,.5);
 	background-size: cover;
 	margin: 1.2em 0;
 }
@@ -66,6 +66,20 @@ small a{
 	margin: 0 auto;
 	padding: 8% 0;
 }
+
+#video2{
+	background: url(../img/bg-mensaje.png) rgba(0,0,0,.7);
+	background-size: cover;
+	margin: 1.2em 0;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.5);
+}
+
+#video2 img {
+	display: block;
+	margin: 0 auto;
+	padding: 14% 0;
+}
+
 
 #conversion{
 	display: block;
@@ -110,3 +124,20 @@ small a{
 	max-width: 960px;
 	margin: 0 auto;
 }
+
+
+
+/* CELUS */
+	@media only screen and (max-width: 758px) {
+		footer ul{
+			margin: 9em 0 3em -1.6em;
+		}
+		#conversion .email {
+			width: 86.8%;
+		}
+
+		#conversion #suscribete{
+			width: 100%;
+			border-radius: 0 0 1em 1em;
+		}
+		}
