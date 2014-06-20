@@ -20,12 +20,12 @@ html{
 
 h1 {
 	margin: 0 auto;
-	padding: 15% 0 .5em 0;
+	padding: 6% 0 .5em 0;
 	text-align: center;
 }
 
 body{
-	background: url(../img/bg-manuel4.jpg) fixed top no-repeat rgba(0,0,0,1);
+	background: url(../img/bg-manuel.jpg) fixed top no-repeat rgba(0,0,0,1);
 	background-size: cover; 
 	height: 100%;
 	font-family: arial;
@@ -125,7 +125,21 @@ small a{
 	margin: 0 auto;
 }
 
+.clear{
+	clear: both;
+}
 
+#hangout{
+	float: left;
+	width: 70%;
+}
+
+#chat{
+	float: right;
+	width: 30%;
+	height: 440px;
+	background: #fff;
+}
 
 /* CELUS */
 	@media only screen and (max-width: 758px) {

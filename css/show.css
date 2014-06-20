@@ -1,0 +1,186 @@
+/*----------------------------------------------------------------------------------------------------
+
+	Theme Name:     Manuel Medrano
+	Description:    Landing page for online marketing challenge adwords
+	Author:         Andres Ospina
+	Author URI:     http://www.treebox.co
+	Version:        0.1
+
+----------------------------------------------------------------------------------------------------*/
+*{
+	webkit-transition: 	ease-out .5s;
+	-moz-transition: 	ease-out .5s;
+	-o-transition:  	ease-out .5s;
+		transition:  	ease-out .5s;
+}
+
+html{
+	height:100%;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 2.53em 0 0 0;
+	font-size: 45px;
+	letter-spacing: 13px;
+}
+
+h2{
+	font-size: 1.2em;
+	text-align: center;
+	letter-spacing: 5.2px;
+	font-weight: 400;
+	margin: 0.4em 0 0 0;
+}
+
+
+header{
+	background: url(../img/bg-show.jpg) no-repeat ;
+	background-size: cover;
+	height: 292px;
+	margin: 0;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid;
+	padding-bottom: 3px;
+	font-weight: bold;
+
+}
+
+body{
+	background: #0A0202;
+	color: #fff;
+	height: 100%;
+	font-family: arial;
+	font-weight: 300;
+	margin: 0;
+}
+
+form{
+	text-align: center;
+	margin: 0 0 2em 0;
+}
+
+footer{
+	text-align: center;
+}
+
+small {
+color: rgba(255, 255, 255, 0.45);
+}
+
+small a {
+	color: #fff;
+}
+
+input {
+	line-height: normal;
+	width: 70%;
+	display: inline-block;
+	padding: .8em;
+	border: 1px solid;
+	width: 56%;
+}
+
+#nombre{
+	border-radius: .4em .4em 0 0;
+}
+
+#telefono{
+	border-radius: 0 0 .4em .4em;
+}
+
+#call-to-action{
+	background: transparent;
+	width: 60%;
+	color: #fff;
+	border-radius: .3em;
+	margin: 1.6em 0 0 0;
+	border: 2px solid #EE311D;
+	letter-spacing: 3px;
+}
+
+#call-to-action:hover{
+	background: #EE311D;
+}
+
+#registro a{
+	color:#fff;
+	text-decoration: none;
+	
+}
+
+#registro a:hover{
+	border-bottom: 2px solid;
+	padding-bottom: 2px;
+}
+
+#registro ul{
+	text-align: center;
+	margin: 2em 0 2em 0 !important;
+	padding: 0;
+}
+
+#registro ul li{
+	display: inline-block;
+	border: 2px solid;
+	padding: 1em 0;
+	width: 27%;
+	/* float: left; */
+}
+
+#registro ul li:first-child{
+margin: 0 5% 0 0%;
+}
+
+#registro ul li:last-child{
+}
+
+
+.contenedor{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.contenedor2{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/*Responsive*/
+	@media only screen and (max-width: 550px) {
+		header{
+			background: url(../img/bg-manuel-movil.jpg) no-repeat;
+			background-size: cover;
+			height: 275px;
+		}
+
+		header a {
+			border: 0;
+		}
+		h1{
+			padding: 1.53em 0 0 0;
+			line-height: 39px;
+		}
+		h2{
+			font-size: 1em;
+			padding: 1em;
+		}
+		small{
+			padding: 1em;
+			position: relative;
+			left: -1em
+		}
+		#registro a {
+			font-size: .9em;
+			}
+		}
